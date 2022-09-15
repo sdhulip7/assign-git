@@ -1,6 +1,6 @@
 What is a gitignore file and what should it include for a Java project?
 gitignore file mentions which files to ignore when we commit and push changes to the github repository.
-It should include the list of names or name-patterns of files in the working-tree (like Eclipse's .project).
+For a java project, it should include the list of names or name-patterns of files in the working-tree (like Eclipse's .project), also specific java files like class, log, jar etc.
 What does fast-forward in git mean?
 fast-forward is used when source branch is directly linked linearly to the target branch. In this, the source branch pointer is moved to the target branch pointer without an extra commit.
 Why should you have different branches?
